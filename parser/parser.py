@@ -4,16 +4,16 @@ from nltk.tree import Tree, ParentedTree
 nltk.download('punkt')
 
 TERMINALS = """
-Adj -> "country" | "dreadful" | "enigmatical" | "little" | "moist" | "red"
+Adj -> "country" | "dreadful" | "enigmatical" | "little" | "moist" | "red"|"his"
 Adv -> "down" | "here" | "never"
 Conj -> "and" | "until"
 Det -> "a" | "an" | "his" | "my" | "the"
-N -> "armchair" | "companion" | "day" | "door" | "hand" | "he" | "himself"
-N -> "holmes" | "home" | "i" | "mess" | "paint" | "palm" | "pipe" | "she"
+N -> "armchair" | "companion" | "day" | "door" | "hand" | "he" | "himself"|"trump"
+N -> "holmes" | "home" | "i" | "mess" | "paint" | "palm" | "pipe" | "she"|"rigoletto"
 N -> "smile" | "thursday" | "walk" | "we" | "word" | "city" | "world"
 P -> "at" | "before" | "in" | "of" | "on" | "to"
 V -> "arrived" | "came" | "chuckled" | "had" | "lit" | "said" | "sat" | "saw"
-V -> "smiled" | "tell" | "were" | "hello"
+V -> "smiled" | "tell" | "were" | "hello"|"got"
 """
 
 NONTERMINALS = """
